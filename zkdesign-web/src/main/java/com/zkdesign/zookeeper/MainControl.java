@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  **/
 @Controller
 public class MainControl implements InitializingBean {
-    @Value("${zk:112.126.97.242:2181}")
+    @Value("${zk:127.0.0.1:2181}")
     private String server;
     private ZkClient zkClient;
     private static final String rootPath = "/qiurunze-manger";

@@ -20,7 +20,7 @@ public class Client {
         referenceConfig.setApplication(config);
         referenceConfig.setInterface(UserService.class);
 //        referenceConfig.setUrl(url);
-        referenceConfig.setRegistry(new RegistryConfig("zookeeper://112.126.97.242:2181"));
+        referenceConfig.setRegistry(new RegistryConfig("zookeeper://127.0.0.1:2181"));
         referenceConfig.setTimeout(5000);
         // 透明化
         this.service = referenceConfig.get();

@@ -25,7 +25,7 @@ public class DataTest {
 
     @Before
     public void init() throws IOException {
-        String conn = "112.126.97.242:2181";
+        String conn = "127.0.0.1:2181";
         zooKeeper = new ZooKeeper(conn, 100000, new Watcher() {
             @Override
             public void process(WatchedEvent watchedEvent) {
@@ -39,7 +39,7 @@ public class DataTest {
 
     @Test
     public void getData() throws KeeperException, InterruptedException {
-
+        zooKeeper.create("/qiurunze","123456".getBytes(),ZooDefs.Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT);
         byte[] data = zooKeeper.getData("/qiurunze",false,null);
         System.out.println(new String(data));
 

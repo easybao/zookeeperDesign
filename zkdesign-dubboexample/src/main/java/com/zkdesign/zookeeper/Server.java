@@ -23,7 +23,7 @@ public class Server {
         ServiceConfig<UserService> serviceConfig = new ServiceConfig();
         serviceConfig.setApplication(config);
         serviceConfig.setProtocol(protocolConfig);
-        serviceConfig.setRegistry(new RegistryConfig("zookeeper://112.126.97.242:2181"));
+        serviceConfig.setRegistry(new RegistryConfig("zookeeper://127.0.0.1:2181"));
         serviceConfig.setInterface(UserService.class);
         UserServiceImpl ref = new UserServiceImpl();
         serviceConfig.setRef(ref);
@@ -34,6 +34,10 @@ public class Server {
     }
 
     public static void main(String[] args) throws IOException {
+
+        /**
+         * 这里要注意 curator框架 和 zookeeper 的版本要对应,否则启动不了, 如果不对应,解决方法: 再次依赖zookeeper包
+         */
         new Server().openServer(-1);
         System.in.read();
     }

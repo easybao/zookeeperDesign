@@ -25,6 +25,7 @@ public class UserServiceImpl implements UserService {
                 e.printStackTrace();
             }
         }
+        System.out.println("getUser方法被调用");
         return u;
     }
 

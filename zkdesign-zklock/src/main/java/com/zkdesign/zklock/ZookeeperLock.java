@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * @author 邱润泽
  **/
 public class ZookeeperLock {
-    private String server = "112.126.97.242:2181";
+    private String server = "127.0.0.1:2181";
     private ZkClient zkClient;
     private static final String rootPath = "/qiurunze-lock1";
 
@@ -22,10 +22,10 @@ public class ZookeeperLock {
     // 构建根节点
     public void buildRoot() {
         if (!zkClient.exists(rootPath)) {
-            zkClient.createPersistent(rootPath);
+            zkClient.createPersistent(rootPath);//创建持久节点
         }
     }
-    // 获取锁
+    // 获取锁 //这种分布式锁的写法 会导致羊群效应,不好,
     public Lock lock(String lockId, long timeout) {
         // 创建临时节点
         Lock lockNode = createLockNode(lockId);

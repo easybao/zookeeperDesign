@@ -39,7 +39,7 @@ public class LockTest {
             file.createNewFile();
         }
         ExecutorService executorService = Executors.newCachedThreadPool();
-        for (int i = 0; i < 100; i++) {// 1000 个线程存在问题
+        for (int i = 0; i < 1000; i++) {// 1000 个线程存在问题
             executorService.submit(() -> {
                 Lock lock = zookeeperLock.lock(file.getPath(), 60 * 1000);
                 try {

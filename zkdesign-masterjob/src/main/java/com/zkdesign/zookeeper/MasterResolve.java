@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * @author qiurunze bullock
  **/
 public class MasterResolve {
-    private String server = "112.126.97.242:2181";
+    private String server = "127.0.0.1:2181";
     private ZkClient zkClient;
     private static final String rootPath = "/qiurunze-master";
     private static final String servicePath = rootPath + "/service";
