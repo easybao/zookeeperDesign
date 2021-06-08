@@ -7,12 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zkdesign-hardcode" />
+        <module name="zkdesign-client" />
         <module name="zkdesign-dubboexample" />
         <module name="zkdesign-zklock" />
-        <module name="zkdesign-web" />
-        <module name="zkdesign-client" />
         <module name="zkdesign-masterjob" />
-        <module name="zkdesign-hardcode" />
+        <module name="zkdesign-web" />
       </profile>
     </annotationProcessing>
   </component>

@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe16fa44-aeb9-4109-ad7b-48fceb126465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/config/ZookeeperConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/DataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/src/main/java/com/zkdesign/zookeeper/ZkclientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/DataTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-client/target/classes/com/zkdesign/zookeeper/ZkclientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-dubboexample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-dubboexample/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-dubboexample/src/main/java/com/zkdesign/zookeeper/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-dubboexample/src/main/java/com/zkdesign/zookeeper/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zkdesign-dubboexample/src/main/java/com/zkdesign/zookeeper/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-dubboexample/src/main/java/com/zkdesign/zookeeper/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-dubboexample/src/main/java/com/zkdesign/zookeeper/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-dubboexample/src/main/java/com/zkdesign/zookeeper/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-hardcode/src/main/java/com/zkdesign/zookeeper/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-hardcode/src/main/java/com/zkdesign/zookeeper/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-masterjob/src/main/java/com/zkdesign/zookeeper/MasterResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-masterjob/src/main/java/com/zkdesign/zookeeper/MasterResolve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-web/src/main/java/com/zkdesign/zookeeper/MainControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-web/src/main/java/com/zkdesign/zookeeper/MainControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-zklock/src/main/java/com/zkdesign/zklock/ZookeeperLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-zklock/src/main/java/com/zkdesign/zklock/ZookeeperLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkdesign-zklock/src/test/java/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkdesign-zklock/src/test/java/LockTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +69,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578537228935" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zookeeper_distribute_lock" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -191,11 +174,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
       <item itemvalue="JUnit.ZookeeperConfig" />
       <item itemvalue="JUnit.LockTest.getLockTest" />
       <item itemvalue="JUnit.LockTest.run" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
@@ -224,6 +207,14 @@
       <workItem from="1578278566072" duration="8297000" />
       <workItem from="1578542389202" duration="4703000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1604979109499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604979109499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -244,5 +235,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
 </project>

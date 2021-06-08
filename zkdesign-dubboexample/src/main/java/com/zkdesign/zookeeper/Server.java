@@ -14,7 +14,7 @@ public class Server {
     public void openServer(int port) {
         // 构建应用
         ApplicationConfig config = new ApplicationConfig();
-        config.setName("simple-app");
+        config.setName("simple-app");//相当于服务名
 
         // 通信协议
         ProtocolConfig protocolConfig = new ProtocolConfig("dubbo", port);
